@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      "github:martineca/dynamodb-localhost",
+      "/Users/o40677/poc"
+    ]
+  ],
+  "_development": true,
+  "_from": "git+ssh://git@bitbucket.coke.com:22/~o40677/dynamodb-localhost.git",
+  "_id": "dynamodb-localhost@0.0.7",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/dynamodb-localhost",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "dynamodb-localhost@git+ssh://git@bitbucket.coke.com:22/~o40677/dynamodb-localhost.git",
+    "name": "dynamodb-localhost",
+    "escapedName": "dynamodb-localhost",
+    "rawSpec": "git+ssh://git@bitbucket.coke.com:22/~o40677/dynamodb-localhost.git",
+    "saveSpec": "git+ssh://git@bitbucket.coke.com:22/~o40677/dynamodb-localhost.git",
+    "fetchSpec": "ssh://git@bitbucket.coke.com:22/~o40677/dynamodb-localhost.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/serverless-dynamodb-local"
+  ],
+  "_resolved": "git+ssh://git@bitbucket.coke.com:22/~o40677/dynamodb-localhost.git#ea1bd2ad385dd8379b1b6d6d2578463cf541582d",
+  "_spec": "dynamodb-localhost@git+ssh://git@bitbucket.coke.com:22/~o40677/dynamodb-localhost.git",
+  "_where": "/Users/o40677/poc",
+  "author": {
+    "name": "99xtechnology.com"
+  },
+  "bin": {},
+  "bugs": {
+    "url": "https://github.com/99xt/dynamodb-localhost/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "mkdirp": "^0.5.0",
+    "progress": "^1.1.8",
+    "rimraf": "^2.6.3",
+    "tar": "2.0.0"
+  },
+  "deprecated": false,
+  "description": "Dynamodb local plugin for devops",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "homepage": "https://github.com/99xt/dynamodb-localhost#readme",
+  "keywords": [
+    "aws",
+    "dynamodb",
+    "dynamo",
+    "testing",
+    "development",
+    "tool",
+    "local",
+    "localhost",
+    "local-dynamodb",
+    "dynamodb-local",
+    "dynamodb-localhost"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "dynamodb-localhost",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99xt/dynamodb-localhost.git"
+  },
+  "version": "0.0.7"
+}
